@@ -6,4 +6,89 @@ html {
 body {
   margin: 0;
   min-height: 100vh;
+  background: linear-gradient(3600deg, rgb(1, 27, 2) 0%,rgb(2, 16, 2) 50%,rgb(0, 0, 0) 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+h1{
+  font-size: 50px;
+  color: rgba(140, 140, 140, 0.916);
+}
+.input{
+  width: 450px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+input{
+  width: 440px;
+  height: 35px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  background-color: rgba(144, 144, 144, 0.274);
+  color: white;
+  font-size: 15px;
+  letter-spacing: .8px;
+}
+.addItem{
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  right: 15px;
+  top: 2.8px;
+  color: rgb(15, 11, 11);
+  background-color: rgb(57, 80, 57);
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+input::placeholder{
+  text-align: center;
+  font-size: 17px;
+  letter-spacing: 2px;
+  display: flex;
+  align-items: center;
+  color: rgb(228, 228, 228);
+}
+
+.listBox{
+  width: 680px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  align-items: center;
+  position: relative;
+}
+
+.list{
+  list-style:none;
+  text-transform: capitalize;
+  color: rgb(224, 224, 224);
+  background-color: rgba(120, 120, 120, 0.396);
+  width: 680px;
+  border-radius:5px ;
+  height: 45px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  font-size: 18px;
+}
+
+.btns button{
+  width: 30px;
+  height: 30px;
+  margin: 10px 5px 0 0;
+  font-size: 17px;
+  font-weight: bolder;
+  background-color: rgb(57, 80, 57);
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
